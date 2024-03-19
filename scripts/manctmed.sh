@@ -4,8 +4,8 @@ set -e
 
 # R -e "remotes::install_github(      \
 #     c(                              \
-#         'jeksterslab/cTMed'         \
+#         'jeksterslab/manCTMed'      \
 #     )                               \
 # )"
 
-R CMD INSTALL cTMed_0.0.0.9000.tar.gz
+R CMD INSTALL manCTMed_0.0.0.9000.tar.gz
