@@ -3,6 +3,7 @@
 set -e
 
 bash rproject.sh
+bash github.sh
 bash dynr_sys.sh
 bash dynr.sh
 bash ctsem.sh
