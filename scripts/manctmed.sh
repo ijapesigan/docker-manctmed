@@ -8,4 +8,4 @@ set -e
 #     )                               \
 # )"
 
-# R CMD INSTALL manCTMed_0.0.0.9000.tar.gz
+R CMD INSTALL manCTMed_0.9.1.tar.gz
