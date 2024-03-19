@@ -11,5 +11,6 @@ bash simstatespace.sh
 bash dynutils.sh
 bash ctmed.sh
 bash manctmed.sh
+bash tinytex.sh
 bash custom.sh
 bash post.sh
