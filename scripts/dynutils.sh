@@ -4,6 +4,6 @@ set -e
 
 R -e "remotes::install_github(      \
     c(                              \
-        'ijapesigan/dynUtils'       \
+        'jeksterslab/dynUtils'      \
     )                               \
 )"
