@@ -2,10 +2,6 @@
 
 set -e
 
-# R -e "remotes::install_github(      \
-#     c(                              \
-#         'jeksterslab/dynUtils'      \
-#     )                               \
-# )"
+R -e "try(remove.packages(pkgs = 'dynUtils'))"
 
-R CMD INSTALL dynUtils_0.0.0.9000.tar.gz
+R CMD INSTALL dynUtils_0.9.1.tar.gz

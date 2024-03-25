@@ -2,7 +2,7 @@
 
 set -e
 
-R -e "install.packages('simStateSpace')"
+R -e "install.packages('ctsem')"
 
 R -e "remotes::install_version(                                \
     package = 'ctsem',                                         \

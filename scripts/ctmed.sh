@@ -2,10 +2,6 @@
 
 set -e
 
-# R -e "remotes::install_github(      \
-#     c(                              \
-#         'jeksterslab/cTMed'         \
-#     )                               \
-# )"
+R -e "try(remove.packages(pkgs = 'cTMed'))"
 
-R CMD INSTALL cTMed_0.0.0.9000.tar.gz
+R CMD INSTALL cTMed_0.9.1.tar.gz
