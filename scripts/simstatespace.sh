@@ -9,3 +9,7 @@ R -e "remotes::install_version(                                \
     version = '1.2.0',                                         \
     repos = 'https://packagemanager.rstudio.com/all/latest'    \
 )"
+
+R -e "library(simStateSpace)"
+
+echo -e "\nInstall simStateSpace, done!"
