@@ -10,8 +10,6 @@ Ivan Jacob Agaloos Pesigan
 Project](https://github.com/ijapesigan/docker-manctmed/actions/workflows/make.yml/badge.svg)](https://github.com/ijapesigan/docker-manctmed/actions/workflows/make.yml)
 [![Docker Build and Push
 \[amd64/arm64\]](https://github.com/ijapesigan/docker-manctmed/actions/workflows/docker-build-push-amd64-arm64.yml/badge.svg)](https://github.com/ijapesigan/docker-manctmed/actions/workflows/docker-build-push-amd64-arm64.yml)
-[![Docker and Apptainer Build
-\[amd64\]](https://github.com/ijapesigan/docker-manctmed/actions/workflows/docker-apptainer-build-amd64.yml/badge.svg)](https://github.com/ijapesigan/docker-manctmed/actions/workflows/docker-apptainer-build-amd64.yml)
 [![Shell
 Check](https://github.com/ijapesigan/docker-manctmed/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/ijapesigan/docker-manctmed/actions/workflows/shellcheck.yml)
 <!-- badges: end -->
