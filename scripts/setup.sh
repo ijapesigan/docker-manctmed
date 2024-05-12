@@ -3,6 +3,7 @@
 set -e
 
 bash rproject.sh
+bash tinytex.sh
 bash mass.sh
 bash dynr_sys.sh
 bash dynr.sh
