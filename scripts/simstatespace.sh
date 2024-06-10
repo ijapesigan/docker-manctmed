@@ -2,13 +2,9 @@
 
 set -e
 
-R -e "install.packages('simStateSpace')"
+R -e "try(remove.packages(pkgs = 'simStateSpace'))"
 
-R -e "remotes::install_version(                                \
-    package = 'simStateSpace',                                 \
-    version = '1.2.1',                                         \
-    repos = 'https://packagemanager.rstudio.com/all/latest'    \
-)"
+R CMD INSTALL simStateSpace_1.2.2.tar.gz
 
 R -e "library(simStateSpace)"
 
