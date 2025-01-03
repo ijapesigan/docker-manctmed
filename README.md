@@ -1,9 +1,10 @@
 ijapesigan/manctmed
 ================
 Ivan Jacob Agaloos Pesigan
-2024-06-10
+2025-01-03
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
+
 <!-- badges: start -->
 
 [![Make
@@ -36,3 +37,11 @@ Open `http://localhost:8787` on your web browser to launch
 
 - username: rstudio
 - password: yourpassword
+
+## Apptainer Container
+
+To build the Singularity Image File (SIF), run the following.
+
+``` bash
+apptainer pull manctmed.sif docker://ijapesigan/docs:manctmed
+```
