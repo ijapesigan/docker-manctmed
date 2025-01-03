@@ -43,5 +43,5 @@ Open `http://localhost:8787` on your web browser to launch
 To build the Singularity Image File (SIF), run the following.
 
 ``` bash
-apptainer pull manctmed.sif docker://ijapesigan/docs:manctmed
+apptainer pull manctmed.sif docker://ijapesigan/manctmed:latest
 ```
