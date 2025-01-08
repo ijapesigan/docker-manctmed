@@ -4,6 +4,7 @@ set -e
 
 bash rproject_sys.sh
 bash rproject.sh
+bash tinytex.sh
 bash mass.sh
 bash openmx_sys.sh
 bash openmx.sh
