@@ -11,6 +11,7 @@ bash openmx.sh
 bash dynr_sys.sh
 bash dynr.sh
 bash simstatespace.sh
+bash bootStateSpace.sh
 bash dynutils.sh
 bash ctmed.sh
 bash manctmed.sh
