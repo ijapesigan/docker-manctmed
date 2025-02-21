@@ -4,7 +4,7 @@ set -e
 
 R -e "try(remove.packages(pkgs = 'cTMed'))"
 
-R CMD INSTALL cTMed_1.0.5.tar.gz
+R CMD INSTALL cTMed_1.0.6.tar.gz
 
 R -e "library(cTMed)"
 

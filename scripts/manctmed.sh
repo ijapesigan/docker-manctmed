@@ -4,7 +4,7 @@ set -e
 
 R -e "try(remove.packages(pkgs = 'manCTMed'))"
 
-R CMD INSTALL manCTMed_1.0.2.tar.gz
+R CMD INSTALL manCTMed_1.0.3.tar.gz
 
 R -e "library(manCTMed)"
 
