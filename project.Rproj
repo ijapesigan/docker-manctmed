@@ -1,5 +1,4 @@
 Version: 1.0
-ProjectId: 7685b72d-8269-4d46-a38d-0b87e8f1a1e1
 
 RestoreWorkspace: Default
 SaveWorkspace: Default
@@ -20,3 +19,4 @@ BuildType: Package
 PackageUseDevtools: Yes
 PackageInstallArgs: --no-multiarch --with-keep.source
 PackageRoxygenize: rd,collate,namespace
+
